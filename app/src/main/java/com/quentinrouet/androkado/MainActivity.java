@@ -3,6 +3,7 @@ package com.quentinrouet.androkado;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -31,7 +32,14 @@ public class MainActivity extends AppCompatActivity {
                 true
         );
         amb.setArticle(painAuChocolat);
-        amb.buttonUrl.setOnClickListener(view -> Toast.makeText(MainActivity.this, painAuChocolat.getUrl(), Toast.LENGTH_SHORT).show());
+        amb.buttonUrl.setOnClickListener(
+                view -> {
+                    Toast.makeText(MainActivity.this, painAuChocolat.getUrl(), Toast.LENGTH_SHORT).show();
+                    Intent intentToInfoUrl = new Intent(MainActivity.this,InfoUrlActivity.class);
+                    intentToInfoUrl.putExtra("article",painAuChocolat);
+                    startActivity(intentToInfoUrl);
+                }
+        );
 
         //TextView tvTitre = findViewById(R.id.textViewNomArticle);
         //TextView textViewPrix = findViewById(R.id.textViewPrix);
