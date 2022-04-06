@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 rootProject.name = "AndroKado"
 include ':app'
 include ':recyclerview'
+include ':navdrawer'
+include ':actionbar'
+include ':swapi'

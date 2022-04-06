@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="actionbar/src/main/res/menu/menu_main.xml" value="0.2276872964169381" />
+        <entry key="app/src/main/res/layout/activity_configuration.xml" value="0.24736842105263157" />
         <entry key="app/src/main/res/layout/activity_info_url.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="navdrawer/src/main/res/layout/activity_main.xml" value="0.3649566650390625" />
+        <entry key="navdrawer/src/main/res/layout/app_bar_main.xml" value="0.2276872964169381" />
+        <entry key="navdrawer/src/main/res/layout/content_main.xml" value="0.21889250814332248" />
+        <entry key="navdrawer/src/main/res/layout/fragment_gallery.xml" value="0.2276872964169381" />
+        <entry key="navdrawer/src/main/res/layout/fragment_home.xml" value="0.2276872964169381" />
+        <entry key="navdrawer/src/main/res/layout/fragment_slideshow.xml" value="0.2276872964169381" />
+        <entry key="navdrawer/src/main/res/layout/nav_header_main.xml" value="0.30833333333333335" />
+        <entry key="navdrawer/src/main/res/menu/activity_main_drawer.xml" value="0.35846153846153844" />
         <entry key="recyclerview/src/main/res/layout/activity_main.xml" value="0.14478149414062505" />
         <entry key="recyclerview/src/main/res/layout/layout_line_voiture.xml" value="0.2560638427734375" />
       </map>
